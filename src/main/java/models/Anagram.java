@@ -10,6 +10,8 @@ public class Anagram {
         wordArray = words.split(" ");
         if (wordArray.length != 2) {
             result = "false";
+        } else if (wordArray.length == 2) {
+            result = "false";
         }
         return result;
     }

@@ -17,10 +17,10 @@ public class AnagramTest {
         assertEquals(expected, testAnagram.checkAnagram("dog"));
     }
 
-//    @Test
-//    public void checkAnagram_returnFalseForTwoNotAnagrams_False() throws Exception {
-//        Anagram testAnagram = new Anagram();
-//        String expected = "false";
-//        assertEquals(expected, testAnagram.checkAnagram("dog cat"));
+    @Test
+    public void checkAnagram_returnFalseForTwoNotAnagrams_False() throws Exception {
+        Anagram testAnagram = new Anagram();
+        String expected = "false";
+        assertEquals(expected, testAnagram.checkAnagram("dog cat"));
     }
 }
