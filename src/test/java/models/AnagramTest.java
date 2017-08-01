@@ -23,4 +23,11 @@ public class AnagramTest {
         String expected = "false";
         assertEquals(expected, testAnagram.checkAnagram("dog cat"));
     }
+
+    @Test
+    public void checkAnagram_returnTrueForTwoAnagrams_True() throws Exception {
+        Anagram testAnagram = new Anagram();
+        String expected = "true";
+        assertEquals(expected, testAnagram.checkAnagram("act cat"));
+    }
 }
